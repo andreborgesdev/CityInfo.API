@@ -1,0 +1,309 @@
+2019-10-07 10:35:06.8476|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 10:35:07.2691|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 10:35:07.2976|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 10:35:07.2976|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 10:35:07.3474|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:44379/api/cities/5/pointsofinterest  
+2019-10-07 10:35:07.3474|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 10:35:07.5216|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 10:35:07.5697|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 10:35:07.5982|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 233.4208ms 200 
+2019-10-07 10:35:07.6334|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 10:35:07.8212|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 10:35:07.8212|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 3.2554000000000003ms.
+2019-10-07 10:35:07.8448|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2019-10-07 10:35:07.8566|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 209.03650000000002ms
+2019-10-07 10:35:07.8566|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 521.1783ms 404 text/plain
+2019-10-07 10:36:08.1673|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 10:36:09.3097|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 10:36:09.3506|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 10:36:09.3752|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 10:36:09.4321|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 10:36:09.6599|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 10:36:09.6975|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 10:36:09.7140|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 279.7953ms 200 
+2019-10-07 10:36:26.0387|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:44379/api/cities/5/pointsofinterest  
+2019-10-07 10:36:26.1333|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 10:36:26.2784|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 10:36:26.3621|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with ID 5 wasn't found when accessing points of interest
+2019-10-07 10:36:26.3742|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 84.4963ms.
+2019-10-07 10:36:26.3742|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-10-07 10:36:26.3981|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 255.1484ms
+2019-10-07 10:36:26.4032|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 365.1297ms 500 text/plain; charset=utf-8
+2019-10-07 10:39:25.7054|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:44379/api/cities/5/pointsofinterest  
+2019-10-07 10:39:25.7054|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 10:39:25.7659|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 10:39:25.8098|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with ID 5 wasn't found when accessing points of interest
+2019-10-07 10:39:25.8138|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 43.9607ms.
+2019-10-07 10:39:25.8138|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-10-07 10:39:25.8342|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 100.447ms
+2019-10-07 10:39:25.8342|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 190.2961ms 500 text/plain; charset=utf-8
+2019-10-07 10:39:26.7153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:44379/api/cities/5/pointsofinterest  
+2019-10-07 10:39:26.7238|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 10:39:26.7614|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 10:39:26.8221|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with ID 5 wasn't found when accessing points of interest
+2019-10-07 10:39:26.8221|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 60.860600000000005ms.
+2019-10-07 10:39:26.8299|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-10-07 10:39:26.8299|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 107.9728ms
+2019-10-07 10:39:26.8299|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 129.6406ms 500 text/plain; charset=utf-8
+2019-10-07 10:49:05.7413|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 10:49:06.1230|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 10:49:06.1410|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 10:49:06.1774|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 10:49:06.2451|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 10:49:06.3968|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 10:49:06.4227|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 10:49:06.4227|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 185.8509ms 200 
+2019-10-07 10:49:09.4559|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:44379/api/cities/5/pointsofinterest  
+2019-10-07 10:49:09.5809|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 10:49:09.8120|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 10:49:09.8942|INFO|CityInfo.API.Controllers.PointsOfInterestController|City with ID 5 wasn't found when accessing points of interest
+2019-10-07 10:49:09.9064|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 82.4259ms.
+2019-10-07 10:49:09.9064|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-10-07 10:49:09.9422|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo.API) in 345.8028ms
+2019-10-07 10:49:09.9422|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 495.4461ms 500 text/plain; charset=utf-8
+2019-10-07 11:40:01.6305|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 11:40:02.0308|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 11:40:02.0594|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 11:40:02.0594|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 11:40:02.1019|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 11:40:02.2344|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 11:40:02.2610|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 11:40:02.2610|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 168.3946ms 200 
+2019-10-07 11:40:41.2821|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 DELETE https://localhost:44379/api/cities/1/pointsofinterest/1  0
+2019-10-07 11:40:41.3788|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 11:40:41.4896|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 11:40:41.5096|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 8.951500000000001ms.
+2019-10-07 11:40:41.5380|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-10-07 11:40:41.5548|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 159.8085ms
+2019-10-07 11:40:41.5548|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 283.26820000000004ms 204 
+2019-10-07 11:52:39.5868|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 11:52:39.9808|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 11:52:39.9941|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 11:52:39.9941|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 11:52:40.0372|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 11:52:40.1696|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 11:52:40.1990|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 11:52:40.1990|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 171.37210000000002ms 200 
+2019-10-07 11:52:41.1396|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 DELETE https://localhost:44379/api/cities/1/pointsofinterest/1  0
+2019-10-07 11:52:41.2271|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 11:52:41.3575|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 11:52:41.3770|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 8.8347ms.
+2019-10-07 11:52:41.3884|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-10-07 11:52:41.3884|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 162.6395ms
+2019-10-07 11:52:41.4082|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 269.2325ms 204 
+2019-10-07 12:31:05.3417|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 12:31:06.0223|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 12:31:06.0651|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 12:31:06.0685|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 12:31:06.1172|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 12:31:06.2356|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 12:31:06.2601|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 12:31:06.2601|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 151.7298ms 200 
+2019-10-07 12:31:27.2450|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 DELETE https://localhost:44379/api/cities/1/pointsofinterest/1  0
+2019-10-07 12:31:27.3183|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 12:31:27.4447|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 12:31:27.4616|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 8.5466ms.
+2019-10-07 12:31:27.4616|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-10-07 12:31:27.4837|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 149.1647ms
+2019-10-07 12:31:27.4837|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 246.77450000000002ms 204 
+2019-10-07 12:33:17.9802|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 12:33:18.3405|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 12:33:18.3600|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 12:33:18.3600|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 12:33:18.3988|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 12:33:18.5241|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 12:33:18.5624|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 12:33:18.5624|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 171.3193ms 200 
+2019-10-07 12:33:20.5205|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 DELETE https://localhost:44379/api/cities/1/pointsofinterest/1  0
+2019-10-07 12:33:20.6064|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 12:33:20.7254|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 12:33:20.7508|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 11.9277ms.
+2019-10-07 12:33:20.7599|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-10-07 12:33:20.7599|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 154.904ms
+2019-10-07 12:33:20.7757|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 259.2717ms 204 
+2019-10-07 12:33:56.2147|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 12:33:56.8203|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 12:33:56.8347|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 12:33:56.8702|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 12:33:56.9187|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 DELETE https://localhost:44379/api/cities/1/pointsofinterest/1  0
+2019-10-07 12:33:56.9187|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 12:33:57.1027|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 12:33:57.1507|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 12:33:57.1641|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 242.96880000000002ms 200 
+2019-10-07 12:33:57.2874|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 12:33:57.4152|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 12:33:57.4376|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 11.2188ms.
+2019-10-07 12:33:57.4376|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-10-07 12:33:57.4554|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 160.2388ms
+2019-10-07 12:33:57.4554|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 547.0965ms 204 
+2019-10-07 12:42:06.1159|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 12:42:06.7618|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 12:42:06.8175|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 12:42:06.8638|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 12:42:06.9361|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 DELETE https://localhost:44379/api/cities/1/pointsofinterest/1  0
+2019-10-07 12:42:06.9361|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 12:42:07.1166|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 12:42:07.2166|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 12:42:07.2166|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2019-10-07 12:42:07.2342|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 291.98240000000004ms 200 
+2019-10-07 12:42:07.5035|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2019-10-07 12:42:07.5303|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 13.2666ms.
+2019-10-07 12:42:07.5423|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-10-07 12:42:07.5520|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 324.84020000000004ms
+2019-10-07 12:42:07.5520|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 628.0827ms 204 
+2019-10-07 12:49:54.0608|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 12:49:54.5527|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2019-10-07 12:49:54.7206|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 16:06:12.1403|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 16:06:13.2794|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 16:06:13.3647|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 16:06:13.4187|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 16:06:13.7236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 16:06:13.9551|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 16:06:13.9855|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 16:06:13.9937|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 374.71110000000004ms 200 
+2019-10-07 16:06:27.2095|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:44379/api/testdatabase  
+2019-10-07 16:06:27.2767|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TestDatabase", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestDatabase() on controller CityInfo.API.Controllers.DummyController (CityInfo.API).
+2019-10-07 16:06:28.1367|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 3.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-10-07 16:06:39.9097|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CityInfoDB];
+2019-10-07 16:06:40.3814|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [CityInfoDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2019-10-07 16:06:40.7244|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Description] nvarchar(200) NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2019-10-07 16:06:40.7423|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PointsOfInterest] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [CityId] int NOT NULL,
+    CONSTRAINT [PK_PointsOfInterest] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_PointsOfInterest_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE CASCADE
+);
+2019-10-07 16:06:40.7423|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_PointsOfInterest_CityId] ON [PointsOfInterest] ([CityId]);
+2019-10-07 16:06:40.8715|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) - Validation state: Valid
+2019-10-07 16:06:40.8830|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.4918ms.
+2019-10-07 16:06:40.8830|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-10-07 16:06:40.9016|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 13617.556400000001ms
+2019-10-07 16:06:40.9016|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 13701.7656ms 200 
+2019-10-07 16:31:39.9994|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 3.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-10-07 16:31:40.3546|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2019-10-07 17:21:43.7142|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 17:21:44.2785|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 17:21:44.2965|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 17:21:44.3304|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 17:21:44.3776|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:44379/api/testdatabase  
+2019-10-07 17:21:44.3776|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 17:21:44.6518|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 17:21:44.6839|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TestDatabase", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestDatabase() on controller CityInfo.API.Controllers.DummyController (CityInfo.API).
+2019-10-07 17:21:44.7002|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 17:21:44.7084|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 334.2634ms 200 
+2019-10-07 17:21:45.9054|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 3.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-10-07 17:21:56.4281|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CityInfoDB];
+2019-10-07 17:21:56.8551|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [CityInfoDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2019-10-07 17:21:57.1181|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2019-10-07 17:21:57.1378|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-10-07 17:21:57.1751|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-10-07 17:21:57.2065|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20191007153140_CityInfoDBInitialMigration'.
+2019-10-07 17:21:57.2555|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Description] nvarchar(200) NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2019-10-07 17:21:57.2555|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PointsOfInterest] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [CityId] int NOT NULL,
+    CONSTRAINT [PK_PointsOfInterest] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_PointsOfInterest_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE CASCADE
+);
+2019-10-07 17:21:57.2743|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_PointsOfInterest_CityId] ON [PointsOfInterest] ([CityId]);
+2019-10-07 17:21:57.2928|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20191007153140_CityInfoDBInitialMigration', N'3.0.0');
+2019-10-07 17:21:57.4534|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) - Validation state: Valid
+2019-10-07 17:21:57.4534|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.44210000000000005ms.
+2019-10-07 17:21:57.4800|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-10-07 17:21:57.5054|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 12803.6412ms
+2019-10-07 17:21:57.5362|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 13149.5313ms 200 
+2019-10-07 17:26:44.8667|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 3.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-10-07 17:26:45.3174|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-10-07 17:26:45.3710|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-10-07 17:26:45.3926|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-10-07 17:26:45.4227|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-10-07 17:27:21.8353|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Andre.Borges\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-10-07 17:27:22.1936|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2019-10-07 17:27:22.2151|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2019-10-07 17:27:22.2624|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Andre.Borges\source\repos\CityInfo.API\CityInfo.API
+2019-10-07 17:27:22.3040|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44379/  
+2019-10-07 17:27:22.4521|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '/ HTTP: GET'
+2019-10-07 17:27:22.4768|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '/ HTTP: GET'
+2019-10-07 17:27:22.4768|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 182.4966ms 200 
+2019-10-07 17:27:23.9645|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:44379/api/testdatabase  
+2019-10-07 17:27:24.0710|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TestDatabase", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestDatabase() on controller CityInfo.API.Controllers.DummyController (CityInfo.API).
+2019-10-07 17:27:25.0513|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 3.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-10-07 17:27:25.5539|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-10-07 17:27:25.6098|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2019-10-07 17:27:25.6427|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-10-07 17:27:25.6719|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20191007162645_CityInfoDBAddPOIDescription'.
+2019-10-07 17:27:25.7174|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+ALTER TABLE [PointsOfInterest] ADD [Description] nvarchar(200) NULL;
+2019-10-07 17:27:25.7288|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20191007162645_CityInfoDBAddPOIDescription', N'3.0.0');
+2019-10-07 17:27:25.8533|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) - Validation state: Valid
+2019-10-07 17:27:25.8619|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.5478000000000001ms.
+2019-10-07 17:27:25.8619|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-10-07 17:27:25.8811|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 1800.0255000000002ms
+2019-10-07 17:27:25.8919|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1934.5312000000001ms 200 
