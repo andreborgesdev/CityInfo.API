@@ -1,0 +1,295 @@
+{
+	"info": {
+		"_postman_id": "518b9b64-9c3b-49f7-9075-d91a943ff73f",
+		"name": "CityInfoAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Cities",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}",
+					"host": [
+						"{{baseURL}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Cities By ID With Points of Intetest",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/2?includePointsOfInterest=true",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"2"
+					],
+					"query": [
+						{
+							"key": "includePointsOfInterest",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Cities By ID Without Points of Intetest",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/2",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Points of interest for city",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/1/pointsofinterest",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"pointsofinterest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Points of interest by ID for city",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/1/pointsofinterest/2",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"pointsofinterest",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE Points of interest for city",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Teste POST\",\n\t\"description\": \"Teste123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/1/pointsofinterest",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"pointsofinterest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FULLY UPDATE Points of interest for city",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"SIGAAAA\",\n\t\"description\": \"Teste\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/1/pointsofinterest/45",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"pointsofinterest",
+						"45"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PARTIALLY UPDATE Points of interest for city",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json-patch+json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"op\": \"replace\",\r\n    \"path\": \"/name\",\r\n    \"value\": \"Barry\"\r\n  },\r\n    {\r\n    \"op\": \"replace\",\r\n    \"path\": \"/description\",\r\n    \"value\": \"Barry1\"\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/1/pointsofinterest/45",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"pointsofinterest",
+						"45"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Points of interest by ID for city",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/1/pointsofinterest/45",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"pointsofinterest",
+						"45"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44379/api/testdatabase",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44379/api/testdatabase",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44379",
+					"path": [
+						"api",
+						"testdatabase"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
